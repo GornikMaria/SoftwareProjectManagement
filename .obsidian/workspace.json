@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "83ee7d4ddf0a1339",
+        "id": "46995512f428f222",
         "type": "tabs",
         "children": [
           {
-            "id": "e1092a0938e04769",
+            "id": "093d0580676b2909",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture & ADR/2025.2.6 Вынесение Face Recognition в отдельный сервис.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025.2.6 Вынесение Face Recognition в отдельный сервис"
+              "title": "New tab"
             }
           }
         ]
@@ -165,17 +161,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1092a0938e04769",
+  "active": "093d0580676b2909",
   "lastOpenFiles": [
     "Architecture & ADR/2025.2.6 Вынесение Face Recognition в отдельный сервис.md",
-    "Architecture & ADR/2025.2.5 Выбор технологии для реализации Face Recognition.md",
-    "Architecture & ADR/2025.2.4 Выбор архитектурного стиля для API.md",
-    "Architecture & ADR/2025.2.3 Выбор базы данных.md",
-    "Architecture & ADR/2025.2.2 Выбор языка программирования для фронтенда.md",
     "Architecture & ADR/2025.2.1 Выбор языка программирования для бэкенда.md",
-    "Architecture & ADR/Архитектурные факторы.md",
-    "C4/Context C4.md",
+    "Architecture & ADR/2025.2.8 Выбор подхода к управлению состоянием (State Management) в React.md",
+    "Architecture & ADR/2025.2.9 Выбор способа развертывания (Deployment) и хостинга.md",
+    "Architecture & ADR/2025.2.3 Выбор СУБД.md",
+    "Architecture & ADR/2025.2.10 Выбор системы управления проектами.md",
+    "Architecture & ADR/2025.2.2 Выбор языка программирования для фронтенда.md",
+    "Architecture & ADR/2025.2.4 Выбор архитектурного стиля взаимодействия клиент-сервер.md",
+    "Architecture & ADR/2025.2.5 Выбор технологии для реализации Face Recognition.md",
+    "Architecture & ADR/2025.2.7 Организация Git Flow.md",
     "C4/Container C4.md",
+    "C4/Container C4-2025-02-18-21-19-38.png",
+    "C4/Context C4.md",
+    "C4/Context C4-2025-02-18-21-18-43.png",
+    "C4/Context C4-2025-02-18-21-13-47.png",
+    "C4/Container C4-2025-02-18-21-14-01.png",
+    "Архитектурные факторы.md",
     "get_order/Get Order UML Diagram.md",
     "get_order/Get Order UML Diagram-2025-02-09-15-18-55.png",
     "C4",
