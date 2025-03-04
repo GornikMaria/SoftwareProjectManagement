@@ -1,5 +1,5 @@
 ```plantuml
-@startuml Infrastructure
+@startuml
 !include <c4/C4_Deployment>
 
 'Окружение
