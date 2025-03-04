@@ -49,7 +49,6 @@ Deployment_Node(travelline_server, "Travelline Server", "Собственный 
          Rel(adapter_1c, one_c, "Передает данные", "1C API / COM / Web Services")
           Rel(accountant, one_c, "Просматривает отчеты", "1С UI")
     }
-  ' Rel(api, elastic, "Логирует", "Logstash") ' Добавляем связь для Elasticsearch
 
     Deployment_Node(monitoring, "Monitoring Stack", "k8s deployments", "docker"){
           Container(prometheus, "Prometheus", "Prometheus", "Сбор метрик")
