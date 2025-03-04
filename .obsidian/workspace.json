@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "be190b6b57f13d27",
+        "id": "f287b89b7d9a4080",
         "type": "tabs",
         "children": [
           {
-            "id": "c5e67fa415cb45f3",
+            "id": "19d03c0c54519375",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,15 +161,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5e67fa415cb45f3",
+  "active": "19d03c0c54519375",
   "lastOpenFiles": [
+    "C4/Deployment C4-2025-03-04-16-49-58.png",
+    "C4/Deployment C4.md",
+    "C4/Infrastructure C4.md",
+    "C4/Infrastructure C4-2025-03-04-16-49-40.png",
     "C4/Infrastructure.png",
     "C4/Deployment C4-2025-03-04-16-33-06.png",
-    "C4/Infrastructure C4.md",
-    "C4/Deployment C4.md",
+    "C4/Deployment.png",
     "C4/Deployment C4-2025-03-04-16-29-49.png",
     "C4/Deployment C4-2025-03-04-16-26-49.png",
-    "C4/Deployment.png",
     "C4/Component C4.md",
     "C4/Guantt & Critical Path.md",
     "C4/guantt.html",
@@ -191,8 +193,6 @@
     "Архитектурные факторы.md",
     "C4/Container C4-2025-02-20-08-33-16.png",
     "C4/Context C4-2025-02-18-21-18-43.png",
-    "C4/Context C4-2025-02-20-08-31-26.png",
-    "C4/Container C4-2025-02-18-21-19-38.png",
     "Architecture & ADR/2025.2.10 Выбор системы управления проектами.md",
     "get_order/Get Order UML Diagram.md",
     "C4",
