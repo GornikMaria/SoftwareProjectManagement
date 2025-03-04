@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6c73fdb29b9bfbe0",
+        "id": "be190b6b57f13d27",
         "type": "tabs",
         "children": [
           {
-            "id": "d34d6160d98fdbec",
+            "id": "c5e67fa415cb45f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,13 +161,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d34d6160d98fdbec",
+  "active": "c5e67fa415cb45f3",
   "lastOpenFiles": [
+    "C4/Infrastructure.png",
+    "C4/Deployment C4-2025-03-04-16-33-06.png",
+    "C4/Infrastructure C4.md",
+    "C4/Deployment C4.md",
+    "C4/Deployment C4-2025-03-04-16-29-49.png",
+    "C4/Deployment C4-2025-03-04-16-26-49.png",
+    "C4/Deployment.png",
+    "C4/Component C4.md",
     "C4/Guantt & Critical Path.md",
     "C4/guantt.html",
     "C4/Новый текстовый документ.txt",
     "C4/Component C4-2025-02-26-01-53-27.png",
-    "C4/Component C4.md",
     "C4/Context C4.md",
     "C4/Container C4.md",
     "Architecture & ADR/2025.2.9 Выбор архитектурного стиля взаимодействия клиент-сервер.md",
@@ -187,13 +194,9 @@
     "C4/Context C4-2025-02-20-08-31-26.png",
     "C4/Container C4-2025-02-18-21-19-38.png",
     "Architecture & ADR/2025.2.10 Выбор системы управления проектами.md",
-    "C4/Context C4-2025-02-18-21-13-47.png",
-    "C4/Container C4-2025-02-18-21-14-01.png",
     "get_order/Get Order UML Diagram.md",
-    "get_order/Get Order UML Diagram-2025-02-09-15-18-55.png",
     "C4",
     "Architecture & ADR",
-    "order/Order UML Diagram.md",
-    "order/Order UML Diagram-2025-02-09-15-20-05.png"
+    "order/Order UML Diagram.md"
   ]
 }
