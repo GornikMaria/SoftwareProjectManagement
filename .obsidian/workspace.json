@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f287b89b7d9a4080",
+        "id": "7bd62fc008e42445",
         "type": "tabs",
         "children": [
           {
-            "id": "19d03c0c54519375",
+            "id": "3f584d5ca7814ca1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 307.5
   },
   "right": {
     "id": "55483f0d80e9f718",
@@ -161,12 +161,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19d03c0c54519375",
+  "active": "14d79183e62261f0",
   "lastOpenFiles": [
-    "C4/Deployment C4-2025-03-04-16-49-58.png",
     "C4/Deployment C4.md",
-    "C4/Infrastructure C4.md",
+    "C4/Deployment C4-2025-03-04-16-49-58.png",
     "C4/Infrastructure C4-2025-03-04-16-49-40.png",
+    "C4/Infrastructure C4-2025-03-10-14-11-29.png",
+    "C4/Infrastructure C4.md",
     "C4/Infrastructure.png",
     "C4/Deployment C4-2025-03-04-16-33-06.png",
     "C4/Deployment.png",
@@ -192,7 +193,6 @@
     "Architecture & ADR/2025.2.2 Выбор платформы (фреймворка) для серверной части.md",
     "Архитектурные факторы.md",
     "C4/Container C4-2025-02-20-08-33-16.png",
-    "C4/Context C4-2025-02-18-21-18-43.png",
     "Architecture & ADR/2025.2.10 Выбор системы управления проектами.md",
     "get_order/Get Order UML Diagram.md",
     "C4",

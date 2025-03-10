@@ -12,18 +12,16 @@ Deployment_Node(travelline_server, "Travelline Server", "Собственный 
     Person(accountant, "Бухгалтер", "Получает отчеты о расходах")
     System_Ext(one_c, "1С:Предприятие", "Система бухгалтерского учета")
     System_Ext(jira, "Jira", "Управление проектами")
-    System_Ext(face_recognition_external, "External Face Recognition", "Облачный сервис распознавания лиц")
   }
 
   ' Контейнеры
   Deployment_Node(web_server, "Web Server", "nginx", "Обрабатывает запросы к веб-приложению и API") {
     Container(web_app, "Web Application", "TypeScript, React", "Предоставляет пользовательский интерфейс")
     Container(kitchen_app, "Kitchen Application", "TypeScript, React", "Приложение для кухни")
-     Container(admin_app, "Admin Application", "TypeScript, React", "Веб приложение для администраторов")
+    Container(admin_app, "Admin Application", "TypeScript, React", "Веб приложение для администраторов")
     Rel(employee, web_app, "Использует", "HTTPS")
     Rel(cook, kitchen_app, "Использует", "HTTPS")
     Rel(admin, admin_app, "Использует", "HTTPS")
-    Rel(employee, face_recognition_external, "Использует для идентификации", "HTTPS, API")
   }
 
     Deployment_Node(app_server, "App Server", "ASP.NET Core", "Обрабатывает бизнес-логику и API запросы"){
@@ -32,10 +30,11 @@ Deployment_Node(travelline_server, "Travelline Server", "Собственный 
             Rel(kitchen_app, api, "Использует", "HTTPS, REST API")
           Rel(admin_app, api, "Использует", "HTTPS, REST API")
             Rel(jira, api, "Получение данных о сотрудниках", "HTTPS")
+           Rel(kitchen_app, api, "Использует", "HTTPS, REST API")
 
     }
 
-   Rel(kitchen_app, face_recognition_external, "Выполняет распознавание лиц", "HTTPS, API")
+
 
   Deployment_Node(db_server, "Database Server", "MSSQL", "Хранит данные") {
     ContainerDb(database, "Database", "MSSQL", "Хранит данные о пользователях, меню, заказах и т.д.")
@@ -67,3 +66,4 @@ Deployment_Node(travelline_server, "Travelline Server", "Собственный 
 }
 @enduml
 ```
+
