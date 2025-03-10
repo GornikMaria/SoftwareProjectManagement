@@ -49,7 +49,6 @@ Deployment_Node(travelline_server, "Travelline Server", "Собственный 
           Rel(accountant, one_c, "Просматривает отчеты", "1С UI")
     }
 
-
     Deployment_Node(monitoring, "Monitoring Stack", "k8s deployments", "docker"){
           Container(prometheus, "Prometheus", "Prometheus", "Сбор метрик")
             Container(grafana, "Grafana", "Grafana", "Визуализация")

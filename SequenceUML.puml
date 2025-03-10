@@ -1,0 +1,49 @@
+@startuml
+actor User
+participant "Web App" as WebApp
+participant "Face Recognition" as FaceRecog
+participant "Telegram Bot" as TelegramBot
+
+User   -> TelegramBot : Регистрация
+TelegramBot -> WebApp : Пользователь зарегистрирован
+TelegramBot -> User : Пользователь зарегистрирован
+TelegramBot -> User : Уведомление об отсутствии заказа в 19:00
+
+User   -> TelegramBot : Предоставление фотографии
+TelegramBot -> FaceRecog : Получено фото пользователя
+
+
+User   -> WebApp : Показать лицо
+WebApp -> FaceRecog : Получить лицо
+FaceRecog -> FaceRecog : Сопоставление слепков лиц
+
+alt Успешное распознавание
+    FaceRecog -> WebApp : Вернуть список блюд
+    WebApp -> User : Показать список блюд
+else Неудача распознавания
+    FaceRecog -> WebApp : Ошибка распознавания
+    WebApp -> User : Показать сообщение об ошибке
+    User   -> WebApp : Вручную найти себя в списке
+    WebApp -> User : Показать результаты поиска
+    User   -> WebApp : Выбрать себя из списка
+    WebApp -> User : Пользователь выбран
+end
+
+User   -> WebApp : Использовать фильтры
+WebApp -> User : Показать отфильтрованные блюда
+
+User   -> WebApp : Использовать сотировки
+WebApp -> User : Показать отфильтрованные блюда
+
+User   -> WebApp : Заказать выбранные блюда
+WebApp -> User : Заказ оформлен
+
+User   -> WebApp : Формирование автозаказа
+WebApp -> User : Сохранение настроек автозаказа
+
+User   -> TelegramBot : Запрос на просмотр блюд на сегодня
+TelegramBot -> User : Показать блюда на сегодня
+
+User   -> TelegramBot : Включить подтверждение автозаказа
+TelegramBot -> User : Функция включена
+@enduml
