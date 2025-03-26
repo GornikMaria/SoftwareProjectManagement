@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "a871dc7a61be0cc1",
+    "id": "bf145631a47655f9",
     "type": "split",
     "children": [
       {
-        "id": "7bd62fc008e42445",
+        "id": "316a8a924a303587",
         "type": "tabs",
         "children": [
           {
-            "id": "3f584d5ca7814ca1",
+            "id": "f1c85535ef3db611",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "C4/Infrastructure C4.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Infrastructure C4"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "97c5b5aae0b78d7f",
+    "id": "532c2a330f82634f",
     "type": "split",
     "children": [
       {
-        "id": "1a08b13ae67ff751",
+        "id": "72c63c80ce3f1611",
         "type": "tabs",
         "children": [
           {
-            "id": "14d79183e62261f0",
+            "id": "4cb40090182f4d35",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "cc5ac2e6762a52a9",
+            "id": "c795bf52caa157a4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "471f39e5a5c901e8",
+            "id": "804297d9cf23305c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 200
   },
   "right": {
-    "id": "55483f0d80e9f718",
+    "id": "2ef464fa6c8b3fd6",
     "type": "split",
     "children": [
       {
-        "id": "d8be52cf17b09e41",
+        "id": "08a4e16ecc6ba42b",
         "type": "tabs",
         "children": [
           {
-            "id": "2d1ad7aa22910e89",
+            "id": "c78390ab80b97c14",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C4/Infrastructure C4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Infrastructure C4"
             }
           },
           {
-            "id": "452effffa0a4cef9",
+            "id": "30c9dadd8db82f5d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C4/Infrastructure C4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Infrastructure C4"
             }
           },
           {
-            "id": "97dd875953491578",
+            "id": "d494395fa204cd0e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +137,18 @@
             }
           },
           {
-            "id": "48797c4d5ea26e99",
+            "id": "f4ed39731f1c6f08",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "C4/Infrastructure C4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Infrastructure C4"
             }
           }
         ]
@@ -161,42 +168,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14d79183e62261f0",
+  "active": "f1c85535ef3db611",
   "lastOpenFiles": [
-    "C4/Deployment C4.md",
-    "C4/Deployment C4-2025-03-04-16-49-58.png",
-    "C4/Infrastructure C4-2025-03-04-16-49-40.png",
-    "C4/Infrastructure C4-2025-03-10-14-11-29.png",
+    "C4/Infrastructure C4-2025-03-26-13-06-07.png",
+    "C4/Infrastructure C4-2025-03-26-13-05-27.png",
+    "Untitled.md",
     "C4/Infrastructure C4.md",
-    "C4/Infrastructure.png",
-    "C4/Deployment C4-2025-03-04-16-33-06.png",
-    "C4/Deployment.png",
-    "C4/Deployment C4-2025-03-04-16-29-49.png",
-    "C4/Deployment C4-2025-03-04-16-26-49.png",
-    "C4/Component C4.md",
-    "C4/Guantt & Critical Path.md",
-    "C4/guantt.html",
-    "C4/Новый текстовый документ.txt",
-    "C4/Component C4-2025-02-26-01-53-27.png",
-    "C4/Context C4.md",
+    "C4/Infrastructure C4-2025-03-10-14-11-29.png",
+    "C4/Deployment C4-2025-03-04-16-49-58.png",
+    "C4/Context C4-2025-02-20-08-31-26.png",
     "C4/Container C4.md",
-    "Architecture & ADR/2025.2.9 Выбор архитектурного стиля взаимодействия клиент-сервер.md",
-    "Architecture & ADR/2025.2.9 Выбор способа развертывания (Deployment) и хостинга.md",
-    "Architecture & ADR/2025.2.8 Выбор подхода к управлению состоянием (State Management) в React.md",
-    "Architecture & ADR/2025.2.8 Организация Git Flow.md",
-    "Architecture & ADR/2025.2.7 Вынесение Face Recognition в отдельный сервис.md",
-    "Architecture & ADR/2025.2.6 Выбор технологии для реализации Face Recognition.md",
-    "Architecture & ADR/2025.2.5 Выбор СУБД.md",
-    "Architecture & ADR/2025.2.4 Выбор фреймворка для разработки клиентской части.md",
-    "Architecture & ADR/2025.2.3 Выбор языка программирования для клиентской части.md",
-    "Architecture & ADR/2025.2.1 Выбор языка программирования для серверной части.md",
-    "Architecture & ADR/2025.2.2 Выбор платформы (фреймворка) для серверной части.md",
-    "Архитектурные факторы.md",
-    "C4/Container C4-2025-02-20-08-33-16.png",
-    "Architecture & ADR/2025.2.10 Выбор системы управления проектами.md",
-    "get_order/Get Order UML Diagram.md",
-    "C4",
-    "Architecture & ADR",
-    "order/Order UML Diagram.md"
+    "C4/Container C4-2025-03-26-13-02-47.png",
+    "C4/Component C4.md",
+    "C4/Component C4-2025-03-26-12-49-25.png",
+    "C4/Component C4-2025-03-26-12-46-52.png",
+    "C4/Component C4-2025-03-26-12-30-50.png",
+    "C4/Component C4-2025-03-26-12-17-06.png",
+    "C4/Component C4-2025-02-26-01-53-27.png"
   ]
 }
